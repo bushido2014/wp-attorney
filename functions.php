@@ -236,12 +236,7 @@ if( function_exists('acf_add_options_page') ) {
 		'capability'	=> 'edit_posts',
 		'icon_url'		=> 'dashicons-admin-generic',
 		'redirect'		=> false
-	));	
-	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Other Settings',
-		'menu_title'	=> 'Other Settings',
-		'parent_slug'	=> 'theme-general-settings',
-	));	
+	));		
 }
 
 function custom_post_type_rest_support() {
